@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: 'cinzel';
+    /* border: 1px solid red; */
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+.mydata{
+    width: 600px;
+    height: auto;
+    margin: 5% auto;
+    padding: 20px;
+    box-shadow: 2px 3px 20px gray;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
+
+.mydata h1{
+    text-align: center;
+}
+
+.mydata p{
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    color: rgb(161, 161, 161);
+}
+
+.myform{
+    display: flex;
+    flex-direction: column;
+}
+
+.myform input{
+    border: 1px solid rgb(169, 169, 169);
+    padding: 10px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    border-radius: 5px;
+}
+
+.btn{
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+.myform a{
+    text-align: center;
+    color: lightgray;
+}
+
+
+
+
+
+@media (max-width: 768px){
+    .mydata{
+        width: 80%;
+        padding: 15px;
+    }
+}
+
+
+@media (max-width: 480px){
+    .mydata{
+        width: 90%;
+        padding: 15px;
+        box-shadow: 1px 2px 10px gray;
+    }
+
+    .mydata h1{
+        font-size: 24px;
+    }
+
+    .myform input{
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .btn{
+        padding: 8px;
+        font-size: 14px;
+    }
+}

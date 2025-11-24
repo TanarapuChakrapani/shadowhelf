@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: 'Cinzel';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+.nav-link {
+    color: white;
+}
+
+/* HERO SECTION */
+.parent1-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    text-align: center;
+}
+
+/* TOP CATEGORIES */
+.parent2 {
+    color: white;
+}
+
+.parent2-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.parent2-1 h3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.parent2-1-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    padding: 10px;
+    gap: 50px;
+}
+
+.parent2-1-1 a{
+    color: white;
+    text-decoration: none;
+}
+
+.parent2-1-1 i {
+    background-color: #131517;
+    padding: 15px 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.parent2-1-1 span {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* POPULAR BOOKS */
+.Popular_Books .card {
+    margin-bottom: 20px;
+}
+
+
+.card img {
+            width: 100%;
+            height: 280px;
+            background-image: cover;
+            border-radius: 5px;
+        }
+
+        .card {
+            background-color: #131517;
+            border: none;
+            transition: 0.3s;
+            height: 550px;  
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .btn{
+            position: relative;
+            margin-bottom: -50px;
+        }
+
+
+
+
+
+
+
+/* FOOTER */
+.footer {
+    background-color: #131517;
+    padding: 30px;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+
+/* LOGOS */
+.logos a {
+    color: white;
+}
+
+.logos i {
+    font-size: 30px;
+}
+
+/* ====================================== */
+/*           RESPONSIVE DESIGN            */
+/* ====================================== */
+
+
+/* laptop-lg-xlg (max-width: 1600px) */
+@media (max-width: 1600px) {
+    .nav-link {
+        text-align: center;
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    .parent2-1-1 {
+        font-size: 60px;
+    }
+
+    .parent2-1-1 i {
+        padding: 12px 15px;
+    }
+
+    .parent1-1 h1 {
+        font-size: 40px;
+    }
+
+    #b1c{
+        height: 600px;
+    }
+
+    #b2c{
+        height: 632px;
+    }
+
+    #b3c{
+        height: 632px;
+    }
+
+    #b4c{
+        height: 600px;
+    }
+
+    #b1{
+        margin-bottom: 10%;
+    }
+
+    #b2{
+        margin-top: 2%;
+    }
+    
+    #b3{
+        margin-top: 25%;
+    }
+
+    #b4{
+        margin-bottom: 10%;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* Tablets (max-width: 992px) */
+@media (max-width: 992px) {
+    .nav-link {
+        text-align: center;
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    .parent2-1-1 {
+        font-size: 60px;
+    }
+
+    .parent2-1-1 i {
+        padding: 12px 15px;
+    }
+
+    .parent1-1 h1 {
+        font-size: 40px;
+    }
+
+    /* #b3{
+        margin-top: 14%;
+    } */
+
+    #b1c{
+        height: 600px;
+    }
+
+    #b2c{
+        height: 600px;
+    }
+
+    #b3c{
+        height: 600px;
+    }
+
+    #b4c{
+        height: 600px;
+    }
+
+    #b1{
+        margin-top: 22px;
+    }
+
+    /* #b2{} */
+
+    #b3{
+        margin-top: 15%;
+    }
+
+    #b4{
+        margin-top: 20px;
+    }
+
+
+    .parent2-1-1 a{
+        margin: 2%;
+    }
+
+    .parent2-1-1 span{
+        font-size: x-small;
+    }
+}
+
+/* Large Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+    .parent2-1-1 {
+        flex-direction: row;
+        font-size: 45px;
+        gap: 10px;
+    }
+
+    .parent1-1 h1 {
+        font-size: 32px;
+    }
+
+    .parent1-1 p {
+        font-size: 16px;
+    }
+
+
+    .card {
+        width: 100% !important;
+    }
+}
+
+/* Small Mobile (max-width: 576px) */
+@media (max-width: 576px) {
+    .parent2-1-1 {
+        font-size: 35px;
+        gap: 10px;
+    }
+
+    .parent2-1-1 i {
+        padding: 10px;
+        border-radius: 15px;
+    }
+
+    .parent2-1-1 span {
+        font-size: 12px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    .footer h3 {
+        font-size: 20px;
+    }
+
+    .footer small {
+        font-size: 14px;
+    }
+
+    .logos i {
+        font-size: 25px;
+        margin-right: 10px;
+    }
+
+
+}

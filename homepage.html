@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHADOWSHELF</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Icon -->
+    <link rel="icon" href="file_00000000260c7208923afd8e7726bfb2.png" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="homepage.css" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/c4b3c0fac3.js" crossorigin="anonymous"></script>
+</head>
+
+<body style="background-color: black;">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="file_00000000260c7208923afd8e7726bfb2.png" width="80px" />
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <i class="fa-solid fa-bars" style="color: white;"></i>
+            </button>
+
+            <div class="collapse navbar-collapse space" id="navbarNav">
+                <ul class="navbar-nav"
+                    style="display: flex; justify-content: space-evenly; width: 90vw; font-weight: bold; font-size: large;">
+                    <li class="nav-item"><a class="nav-link" href="homepage.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Books.html">Books</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="users.html">Register</a></li>
+
+                    <!-- Profil Drop-down -->
+                            <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Profile
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #131517;">
+            <li><a class="dropdown-item" href="Feedback.html" style="color: white; font-weight: bold;">Feedback</a></li>
+            <li><a class="dropdown-item" href="Book_return.html" style="color: white; font-weight: bold;">Issue/Return</a></li>
+            <li><a class="dropdown-item" href="Pay_fine.html" style="color: white; font-weight: bold;">Pay fine</a></li>
+          </ul>
+        </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="parent1">
+        <div class="parent1-1">
+            <h1 style="color: White;">ShadowShelf</h1>
+            <p style="color: gray;">A Mysterious Library at your Fingertips</p>
+        </div>
+    </section>
+
+    <!-- TOP CATEGORIES -->
+    <div class="container parent2">
+        <section>
+            <div class="row  parent2-1">
+                <h3>Top Categories</h3>
+
+                <div class="col-12 parent2-1-1">
+                    <a href="Fiction.html"><i class="fa-solid fa-feather-pointed">
+                            <span>Fiction</span>
+                        </i></a>
+
+                    <a href="Science.html"><i class="fa-solid fa-atom">
+                            <span>Science</span>
+                        </i></a>
+
+                    <a href="History.html"><i class="fa-solid fa-archway">
+                            <span>History</span>
+                        </i></a>
+
+                    <a href="Biography.html"><i class="fa-solid fa-user">
+                            <span>Biography</span>
+                        </i></a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- POPULAR BOOKS -->
+    <section class="parent3">
+        <div class="container">
+            <h3 class="text-center p-3" style="color: white;">Popular Books</h3>
+
+            <div class="row">
+                <!-- CARD 1 -->
+                <div class="text-center Popular_Books col-12 col-md-6 col-lg-3">
+                    <div class="card" style="border: none;" id="b1c">
+                        <img
+                            src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1650033243i/41733839.jpg">
+                        <div class="card-body" style="background-color: #131517; color: white;">
+                            <h5>The Great Gatsby</h5>
+                            <p>a novel about the mysterious millionaire Jay Gatsby's obsessive pursuit of his former love, the wealthy and married Daisy Buchanan.</p>
+                            <a href="Hbook_card1.html" class="btn btn-warning"
+                                style="color: white; font-weight: bold;" id="b1">View more
+                                Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 2 -->
+                <div class="text-center Popular_Books col-12 col-md-6 col-lg-3">
+                    <div class="card" style="border: none;" id="b2c">
+                        <img
+                            src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1173244441i/264196.jpg">
+                        <div class="card-body" style="background-color: #131517; color: white;">
+                            <h5>1984</h5>
+                            <p>a cautionary tale about a man's futile rebellion against an all-seeing, totalitarian
+                                regime that seeks to control every aspect of human life.
+                            </p>
+                            <a href="Hbook_card2.html" class="btn btn-warning" style="color: white;" id="b2">View more
+                                Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 3 -->
+                <div class="text-center Popular_Books col-12 col-md-6 col-lg-3">
+                    <div class="card" style="border: none;" id="b3c">
+                        <img
+                            src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1708964601i/202468422.jpg">
+                        <div class="card-body b3c" style="background-color: #131517; color: white;">
+                            <h5>There Are Rivers in the Sky</h5>
+                            <p>a novel about three interconnected lives spanning from 19th-century London to modern-day
+                                Turkey.</p>
+                            <a href="Hbook_card3.html" class="btn btn-warning" style="color: white;" id="b3">View more
+                                Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 4 -->
+                <div class="text-center Popular_Books col-12 col-md-6 col-lg-3">
+                    <div class="card" style="border: none;" id="b4c">
+                        <img
+                            src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1681804503i/129915654.jpg">
+                        <div class="card-body" style="background-color: #131517; color: white;">
+                            <h5>Pride and Prejudice</h5>
+                            <p>Pride and Prejudice, written by Jane Austen and published in 1813, is a romantic novel of
+                                manners, following the emotional developmen.</p>
+                            <a href="Hbook_card4.html" class="btn btn-warning" style="color: white;" id="b4">View more
+                                Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- FOOTER -->
+    <section class="footer mt-5">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12 col-md-6 col-lg-3 d-flex flex-column" style="color: white;">
+                    <h3>Quick Links</h3>
+                    <a href="homepage.html"><small>Home</small></a>
+                    <a href="Books.html"><small>Books</small></a>
+                    <a href="users.html"><small>Register</small></a>
+                    <a href="contact.html"><small>Contact</small></a>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 d-flex flex-column" style="color: white;">
+                    <h3>Categories</h3>
+                    <a href="Fiction.html"><small>Fiction</small></a>
+                    <a href="Science.html"><small>Science</small></a>
+                    <a href="History.html"><small>History</small></a>
+                    <a href="Biography.html"><small>Biography</small></a>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 d-flex flex-column" style="color: white;">
+                    <h3>Contact</h3>
+                    <i class="fa-solid fa-location-dot mb-1">
+                        <small>Vijayawada, Andhra Pradesh</small>
+                    </i>
+                    <i class="fa-solid fa-phone mb-1">
+                        <small>+91 1234567890</small>
+                    </i>
+                    <i class="fa-regular fa-envelope mb-1">
+                        <small>support@shadowshelf.com</small>
+                    </i>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 d-flex flex-column" style="color: white;">
+                    <h3>Connect</h3>
+                    <div class="d-flex flex-row logos">
+                        <a href="https://www.linkedin.com/in/chakrapani-tanarapu-77ba19293/"><i class="fa-brands fa-square-linkedin"></i></a>
+                        <a href="https://github.com/TanarapuChakrapani"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/mr.chakri___?igsh=ZTcwa2RrZzl3amdr"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100052941825530"><i class="fa-brands fa-square-facebook"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <div style="color: white; padding: 20px;">
+        <!-- <center>&copy; 2025 SHADOWSHELF. All right reserved</center> -->
+         <small class=" d-flex  justify-content-center">&copy; 2025 SHADOWSHELF. All right reserved</small>
+    </div>
+
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

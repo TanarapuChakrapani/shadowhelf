@@ -1,0 +1,72 @@
+*{
+    font-family: 'cinzel';
+    box-sizing: border-box;
+}
+
+.mydata{
+    width: 600px;
+    margin: 40px auto;  
+    padding: 20px;
+    box-shadow: 2px 3px 20px gray;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+
+.mydata h1{
+    text-align: center;
+}
+
+
+.mydata p{
+    text-align: center;
+    max-width: 80%;
+    margin: auto;
+    color: rgb(161, 161, 161);
+}
+
+
+.myform{
+    display: flex;
+    flex-direction: column;
+}
+
+.myform input{
+    border: 1px solid rgb(169, 169, 169);
+    padding: 8px;
+    margin: 12px 0;
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+.btn{
+    background-color: gray  ;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 12px 0;
+}
+
+@media (max-width: 768px){
+    .mydata{
+        width: 80%;
+        padding: 18px;
+    }
+}
+
+
+@media (max-width: 480px){
+    .mydata{
+        width: 90%;
+        padding: 15px;
+    }
+
+    .mydata h1{
+        font-size: 22px;
+    }
+
+    .mydata p{
+        font-size: 14px;
+    }
+}

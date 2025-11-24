@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: 'cinzel';
+    /* border: 1px solid red; */
+}
+
+.content{
+    display: flex;
+}
+
+.Book_img{
+    padding: 30px 0px 0px 0px;
+}
+.Book_info{
+    padding: 30px 0px 0px 40px;
+}
+.book{
+    aspect-ratio: 3/3;
+}

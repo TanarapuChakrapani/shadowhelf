@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: 'cinzel';
+}
+
+.body {
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #131517;
+    padding: 40px;
+    width: 420px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.subtext {
+    font-size: 14px;
+    color: #c7c7c7;
+    margin-bottom: 35px;
+}
+
+.details-box {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.details-box h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.label {
+    color: #d1d1d1;
+}
+
+.pay-btn {
+    width: 100%;
+    padding: 15px;
+    background: #3a3636;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.pay-btn:hover {
+    background: #5b5b5b;
+}
